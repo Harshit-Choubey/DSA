@@ -1,9 +1,8 @@
 class Solution {
-    struct Node {
+    struct Node{
         int prod;
-        array<int, 5> cnt;
-
-        Node() {
+        array<int, 5>cnt;
+        Node(){
             prod = 1;
             cnt.fill(0);
         }
